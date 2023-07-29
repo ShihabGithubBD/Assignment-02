@@ -132,7 +132,6 @@ body{
     background-color: #19CE67;
     color: white;
     padding: 6px 72px;
-    /* border-radius: 15px; */
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
@@ -279,4 +278,94 @@ body{
     font-size: 13px;
     padding-top: 20px;
     padding-bottom: 5px;
+}
+
+
+/* STYLE FOR MOBILE SCREEN */
+
+@media only screen and (max-width:600px) {
+   
+    .child-nav-div2{
+        display:none;
+    }
+    .child-nav-div1{
+        margin: 15px auto 15px 10px;
+    }
+    .child-nav-div1 h6{
+        font-size: 20px;
+        color: #19CE67;
+    }
+
+   /* Banner Area Here */
+
+    .main-banner-div{
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url(./photos/banner-bg.jpg);
+    }
+    .banner-child-div2 img{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .banner-child-div2{
+        margin-right: auto;
+    }
+    .banner-child-div1{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .banner-child-div1 h4{
+        padding-top: 30px;
+    }
+
+    /* Products Area Here */
+
+    .main-products-div{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 30px 15px;
+    }
+    .main-products-section p{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .products-child-div >h5 a{
+        padding: 6px 151px;
+    }
+    
+    /* Our Team Area */
+
+    .main-team-section p{
+        margin-left: 13px;
+        margin-right: 13px;
+    }
+    .main-team-div{
+        display:grid;
+        justify-content: center;
+        text-align: center;
+    }
+    .main-team-div img{
+        width: 380px;
+    }
+
+    /* News and Blogs Area Here */
+
+    .news-child-section p{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .main-news-div{
+        display:grid;
+        justify-content: center;
+    }
+    .news-child-div img{
+        width: 380px;
+    }
+
+    /* Footer Area Here */
+
+    .main-footer-div{
+        display: none;
+    }
 }
