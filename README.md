@@ -11,4 +11,4 @@ Bangladesh's most convenient online pharmacy, is brought to you by the Dadha & C
 
 ## Live Link
 
-A live version of the project is available at: [https://www.example.com](https://www.example.com)
+A live version of the project is available at: [https://assignment-02-by-shihab.netlify.app/](https://assignment-02-by-shihab.netlify.app/)
